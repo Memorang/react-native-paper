@@ -63,15 +63,6 @@ class ButtonExample extends React.Component<Props, State> {
             visible={this.state.visible}
             disabled
           />
-<<<<<<< HEAD:example/src/Examples/FABExample.js
-          <FAB
-            icon="cancel"
-            label="Loading FAB"
-            loading
-            style={styles.fab}
-            onPress={() => {}}
-            visible={this.state.visible}
-=======
 
           <FAB
             icon="cancel"
@@ -80,7 +71,6 @@ class ButtonExample extends React.Component<Props, State> {
             onPress={() => {}}
             visible={this.state.visible}
             loading
->>>>>>> upstream/master:example/src/Examples/FABExample.tsx
           />
           <Portal>
             <FAB.Group

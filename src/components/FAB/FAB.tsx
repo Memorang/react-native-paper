@@ -1,14 +1,9 @@
 import color from 'color';
 import * as React from 'react';
-<<<<<<< HEAD:src/components/FAB/FAB.js
-import { Animated, View, StyleSheet, ActivityIndicator } from 'react-native';
-import FABGroup from './FABGroup';
-=======
 import { Animated, View, ViewStyle, StyleSheet, StyleProp } from 'react-native';
 import ActivityIndicator from '../ActivityIndicator';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import FABGroup, { FABGroup as _FABGroup } from './FABGroup';
->>>>>>> upstream/master:src/components/FAB/FAB.tsx
 import Surface from '../Surface';
 import CrossFadeIcon from '../CrossFadeIcon';
 import Text from '../Typography/Text';
@@ -226,17 +221,8 @@ class FAB extends React.Component<Props, State> {
             {icon && loading !== true ? (
               <CrossFadeIcon source={icon} size={24} color={foregroundColor} />
             ) : null}
-<<<<<<< HEAD:src/components/FAB/FAB.js
-            {loading ? (
-              <ActivityIndicator
-                size="small"
-                color={foregroundColor}
-                style={styles.icon}
-              />
-=======
             {loading && label ? (
               <ActivityIndicator size={18} color={foregroundColor} />
->>>>>>> upstream/master:src/components/FAB/FAB.tsx
             ) : null}
             {label ? (
               <Text
