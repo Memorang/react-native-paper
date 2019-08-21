@@ -48,10 +48,6 @@ type Props = $RemoveChildren<typeof Surface> & {
    */
   loading?: boolean;
   /**
-   * Whether to show a loading indicator.
-   */
-  loading?: boolean,
-  /**
    * Function to execute on press.
    */
   onPress?: () => void;
@@ -271,10 +267,6 @@ const styles = StyleSheet.create({
   },
   disabled: {
     elevation: 0,
-  },
-  icon: {
-    width: 16,
-    marginLeft: 12,
   },
 });
 
