@@ -30,6 +30,12 @@ const data: Data[] = [
       'https://play.google.com/store/apps/details?id=com.helsedesign.appngo',
     ios: 'https://itunes.apple.com/us/app/appngo/id1439585129',
   },
+  {
+    color: '#fff',
+    name: 'Dark Hacker News',
+    image: 'showcase/darkhackernews.png',
+    ios: 'https://itunes.apple.com/us/app/dark-hacker-news/id1459946382?mt=8',
+  },
 ];
 
 export default class Showcase extends React.Component<{}> {
@@ -50,7 +56,9 @@ export default class Showcase extends React.Component<{}> {
         </p>
         <Gallery>
           {data.map(item => {
-            const tintColor = color(item.color).light() ? '#000000' : '#FFFFFF';
+            const tintColor = color(item.color).isLight()
+              ? '#000000'
+              : '#FFFFFF';
             return (
               <div key={item.image}>
                 <ImageContainer>

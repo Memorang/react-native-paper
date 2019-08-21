@@ -1,5 +1,340 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`renders list section with custom title style 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginVertical": 8,
+      },
+      undefined,
+    ]
+  }
+  theme={
+    Object {
+      "animation": Object {
+        "scale": 1,
+      },
+      "colors": Object {
+        "accent": "#03dac4",
+        "backdrop": "rgba(0, 0, 0, 0.5)",
+        "background": "#f6f6f6",
+        "disabled": "rgba(0, 0, 0, 0.26)",
+        "error": "#B00020",
+        "notification": "#f50057",
+        "onBackground": "#000000",
+        "onSurface": "#000000",
+        "placeholder": "rgba(0, 0, 0, 0.54)",
+        "primary": "#6200ee",
+        "surface": "#ffffff",
+        "text": "#000000",
+      },
+      "dark": false,
+      "fonts": Object {
+        "light": Object {
+          "fontFamily": "System",
+          "fontWeight": "300",
+        },
+        "medium": Object {
+          "fontFamily": "System",
+          "fontWeight": "500",
+        },
+        "regular": Object {
+          "fontFamily": "System",
+          "fontWeight": "400",
+        },
+        "thin": Object {
+          "fontFamily": "System",
+          "fontWeight": "100",
+        },
+      },
+      "roundness": 4,
+    }
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "System",
+          "fontWeight": "400",
+          "textAlign": "left",
+          "writingDirection": "ltr",
+        },
+        Array [
+          Object {
+            "paddingHorizontal": 16,
+            "paddingVertical": 13,
+          },
+          Object {
+            "color": "rgba(0, 0, 0, 0.54)",
+            "fontFamily": "System",
+            "fontWeight": "500",
+          },
+          Object {
+            "color": "red",
+          },
+        ],
+      ]
+    }
+  >
+    Some title
+  </Text>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        false,
+        Array [
+          Object {
+            "padding": 8,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        pointerEvents="box-none"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 40,
+              "justifyContent": "center",
+              "margin": 8,
+              "width": 40,
+            },
+            Object {
+              "marginLeft": 0,
+              "marginRight": 16,
+              "marginVertical": 0,
+            },
+          ]
+        }
+      >
+        <Text
+          accessibilityElementsHidden={true}
+          allowFontScaling={false}
+          importantForAccessibility="no-hide-descendants"
+          pointerEvents="none"
+          style={
+            Array [
+              Object {
+                "color": "rgba(0, 0, 0, 0.54)",
+                "fontSize": 24,
+              },
+              Array [
+                Object {
+                  "transform": Array [
+                    Object {
+                      "scaleX": 1,
+                    },
+                  ],
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+              ],
+              Object {
+                "fontFamily": "Material Design Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        pointerEvents="none"
+        style={
+          Array [
+            Object {
+              "marginVertical": 6,
+              "paddingLeft": 8,
+            },
+            Object {
+              "flex": 1,
+              "justifyContent": "center",
+            },
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Array [
+                Object {
+                  "fontSize": 16,
+                },
+                Object {
+                  "color": "rgba(0, 0, 0, 0.87)",
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          First Item
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        false,
+        Array [
+          Object {
+            "padding": 8,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        pointerEvents="box-none"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 40,
+              "justifyContent": "center",
+              "margin": 8,
+              "width": 40,
+            },
+            Object {
+              "marginLeft": 0,
+              "marginRight": 16,
+              "marginVertical": 0,
+            },
+          ]
+        }
+      >
+        <Text
+          accessibilityElementsHidden={true}
+          allowFontScaling={false}
+          importantForAccessibility="no-hide-descendants"
+          pointerEvents="none"
+          style={
+            Array [
+              Object {
+                "color": "rgba(0, 0, 0, 0.54)",
+                "fontSize": 24,
+              },
+              Array [
+                Object {
+                  "transform": Array [
+                    Object {
+                      "scaleX": 1,
+                    },
+                  ],
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+              ],
+              Object {
+                "fontFamily": "Material Design Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        pointerEvents="none"
+        style={
+          Array [
+            Object {
+              "marginVertical": 6,
+              "paddingLeft": 8,
+            },
+            Object {
+              "flex": 1,
+              "justifyContent": "center",
+            },
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+                "textAlign": "left",
+                "writingDirection": "ltr",
+              },
+              Array [
+                Object {
+                  "fontSize": 16,
+                },
+                Object {
+                  "color": "rgba(0, 0, 0, 0.87)",
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          Second Item
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
 exports[`renders list section with subheader 1`] = `
 <View
   style={
@@ -12,6 +347,9 @@ exports[`renders list section with subheader 1`] = `
   }
   theme={
     Object {
+      "animation": Object {
+        "scale": 1,
+      },
       "colors": Object {
         "accent": "#03dac4",
         "backdrop": "rgba(0, 0, 0, 0.5)",
@@ -19,6 +357,8 @@ exports[`renders list section with subheader 1`] = `
         "disabled": "rgba(0, 0, 0, 0.26)",
         "error": "#B00020",
         "notification": "#f50057",
+        "onBackground": "#000000",
+        "onSurface": "#000000",
         "placeholder": "rgba(0, 0, 0, 0.54)",
         "primary": "#6200ee",
         "surface": "#ffffff",
@@ -26,10 +366,22 @@ exports[`renders list section with subheader 1`] = `
       },
       "dark": false,
       "fonts": Object {
-        "light": "HelveticaNeue-Light",
-        "medium": "HelveticaNeue-Medium",
-        "regular": "Helvetica Neue",
-        "thin": "HelveticaNeue-Thin",
+        "light": Object {
+          "fontFamily": "System",
+          "fontWeight": "300",
+        },
+        "medium": Object {
+          "fontFamily": "System",
+          "fontWeight": "500",
+        },
+        "regular": Object {
+          "fontFamily": "System",
+          "fontWeight": "400",
+        },
+        "thin": Object {
+          "fontFamily": "System",
+          "fontWeight": "100",
+        },
       },
       "roundness": 4,
     }
@@ -41,7 +393,8 @@ exports[`renders list section with subheader 1`] = `
       Array [
         Object {
           "color": "#000000",
-          "fontFamily": "Helvetica Neue",
+          "fontFamily": "System",
+          "fontWeight": "400",
           "textAlign": "left",
           "writingDirection": "ltr",
         },
@@ -52,7 +405,8 @@ exports[`renders list section with subheader 1`] = `
           },
           Object {
             "color": "rgba(0, 0, 0, 0.54)",
-            "fontFamily": "HelveticaNeue-Medium",
+            "fontFamily": "System",
+            "fontWeight": "500",
           },
           undefined,
         ],
@@ -100,7 +454,11 @@ exports[`renders list section with subheader 1`] = `
               "margin": 8,
               "width": 40,
             },
-            undefined,
+            Object {
+              "marginLeft": 0,
+              "marginRight": 16,
+              "marginVertical": 0,
+            },
           ]
         }
       >
@@ -128,7 +486,7 @@ exports[`renders list section with subheader 1`] = `
                 },
               ],
               Object {
-                "fontFamily": "Material Icons",
+                "fontFamily": "Material Design Icons",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -136,7 +494,7 @@ exports[`renders list section with subheader 1`] = `
             ]
           }
         >
-          
+          
         </Text>
       </View>
       <View
@@ -144,7 +502,8 @@ exports[`renders list section with subheader 1`] = `
         style={
           Array [
             Object {
-              "margin": 8,
+              "marginVertical": 6,
+              "paddingLeft": 8,
             },
             Object {
               "flex": 1,
@@ -159,7 +518,8 @@ exports[`renders list section with subheader 1`] = `
             Array [
               Object {
                 "color": "#000000",
-                "fontFamily": "Helvetica Neue",
+                "fontFamily": "System",
+                "fontWeight": "400",
                 "textAlign": "left",
                 "writingDirection": "ltr",
               },
@@ -219,7 +579,11 @@ exports[`renders list section with subheader 1`] = `
               "margin": 8,
               "width": 40,
             },
-            undefined,
+            Object {
+              "marginLeft": 0,
+              "marginRight": 16,
+              "marginVertical": 0,
+            },
           ]
         }
       >
@@ -247,7 +611,7 @@ exports[`renders list section with subheader 1`] = `
                 },
               ],
               Object {
-                "fontFamily": "Material Icons",
+                "fontFamily": "Material Design Icons",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -255,7 +619,7 @@ exports[`renders list section with subheader 1`] = `
             ]
           }
         >
-          
+          
         </Text>
       </View>
       <View
@@ -263,7 +627,8 @@ exports[`renders list section with subheader 1`] = `
         style={
           Array [
             Object {
-              "margin": 8,
+              "marginVertical": 6,
+              "paddingLeft": 8,
             },
             Object {
               "flex": 1,
@@ -278,7 +643,8 @@ exports[`renders list section with subheader 1`] = `
             Array [
               Object {
                 "color": "#000000",
-                "fontFamily": "Helvetica Neue",
+                "fontFamily": "System",
+                "fontWeight": "400",
                 "textAlign": "left",
                 "writingDirection": "ltr",
               },
@@ -314,6 +680,9 @@ exports[`renders list section without subheader 1`] = `
   }
   theme={
     Object {
+      "animation": Object {
+        "scale": 1,
+      },
       "colors": Object {
         "accent": "#03dac4",
         "backdrop": "rgba(0, 0, 0, 0.5)",
@@ -321,6 +690,8 @@ exports[`renders list section without subheader 1`] = `
         "disabled": "rgba(0, 0, 0, 0.26)",
         "error": "#B00020",
         "notification": "#f50057",
+        "onBackground": "#000000",
+        "onSurface": "#000000",
         "placeholder": "rgba(0, 0, 0, 0.54)",
         "primary": "#6200ee",
         "surface": "#ffffff",
@@ -328,10 +699,22 @@ exports[`renders list section without subheader 1`] = `
       },
       "dark": false,
       "fonts": Object {
-        "light": "HelveticaNeue-Light",
-        "medium": "HelveticaNeue-Medium",
-        "regular": "Helvetica Neue",
-        "thin": "HelveticaNeue-Thin",
+        "light": Object {
+          "fontFamily": "System",
+          "fontWeight": "300",
+        },
+        "medium": Object {
+          "fontFamily": "System",
+          "fontWeight": "500",
+        },
+        "regular": Object {
+          "fontFamily": "System",
+          "fontWeight": "400",
+        },
+        "thin": Object {
+          "fontFamily": "System",
+          "fontWeight": "100",
+        },
       },
       "roundness": 4,
     }
@@ -376,7 +759,11 @@ exports[`renders list section without subheader 1`] = `
               "margin": 8,
               "width": 40,
             },
-            undefined,
+            Object {
+              "marginLeft": 0,
+              "marginRight": 16,
+              "marginVertical": 0,
+            },
           ]
         }
       >
@@ -404,7 +791,7 @@ exports[`renders list section without subheader 1`] = `
                 },
               ],
               Object {
-                "fontFamily": "Material Icons",
+                "fontFamily": "Material Design Icons",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -412,7 +799,7 @@ exports[`renders list section without subheader 1`] = `
             ]
           }
         >
-          
+          
         </Text>
       </View>
       <View
@@ -420,7 +807,8 @@ exports[`renders list section without subheader 1`] = `
         style={
           Array [
             Object {
-              "margin": 8,
+              "marginVertical": 6,
+              "paddingLeft": 8,
             },
             Object {
               "flex": 1,
@@ -435,7 +823,8 @@ exports[`renders list section without subheader 1`] = `
             Array [
               Object {
                 "color": "#000000",
-                "fontFamily": "Helvetica Neue",
+                "fontFamily": "System",
+                "fontWeight": "400",
                 "textAlign": "left",
                 "writingDirection": "ltr",
               },
@@ -495,7 +884,11 @@ exports[`renders list section without subheader 1`] = `
               "margin": 8,
               "width": 40,
             },
-            undefined,
+            Object {
+              "marginLeft": 0,
+              "marginRight": 16,
+              "marginVertical": 0,
+            },
           ]
         }
       >
@@ -523,7 +916,7 @@ exports[`renders list section without subheader 1`] = `
                 },
               ],
               Object {
-                "fontFamily": "Material Icons",
+                "fontFamily": "Material Design Icons",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -531,7 +924,7 @@ exports[`renders list section without subheader 1`] = `
             ]
           }
         >
-          
+          
         </Text>
       </View>
       <View
@@ -539,7 +932,8 @@ exports[`renders list section without subheader 1`] = `
         style={
           Array [
             Object {
-              "margin": 8,
+              "marginVertical": 6,
+              "paddingLeft": 8,
             },
             Object {
               "flex": 1,
@@ -554,7 +948,8 @@ exports[`renders list section without subheader 1`] = `
             Array [
               Object {
                 "color": "#000000",
-                "fontFamily": "Helvetica Neue",
+                "fontFamily": "System",
+                "fontWeight": "400",
                 "textAlign": "left",
                 "writingDirection": "ltr",
               },

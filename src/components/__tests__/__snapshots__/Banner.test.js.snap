@@ -18,9 +18,15 @@ exports[`renders hidden banner, without action buttons and without image 1`] = `
 >
   <View
     style={
-      Object {
-        "overflow": "hidden",
-      }
+      Array [
+        Object {
+          "alignSelf": "center",
+          "maxWidth": 960,
+          "overflow": "hidden",
+          "width": "100%",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -62,7 +68,8 @@ exports[`renders hidden banner, without action buttons and without image 1`] = `
             Array [
               Object {
                 "color": "#000000",
-                "fontFamily": "Helvetica Neue",
+                "fontFamily": "System",
+                "fontWeight": "400",
                 "textAlign": "left",
                 "writingDirection": "ltr",
               },
@@ -108,9 +115,15 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
 >
   <View
     style={
-      Object {
-        "overflow": "hidden",
-      }
+      Array [
+        Object {
+          "alignSelf": "center",
+          "maxWidth": 960,
+          "overflow": "hidden",
+          "width": "100%",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -161,7 +174,8 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
             Array [
               Object {
                 "color": "#000000",
-                "fontFamily": "Helvetica Neue",
+                "fontFamily": "System",
+                "fontWeight": "400",
                 "textAlign": "left",
                 "writingDirection": "ltr",
               },
@@ -195,18 +209,12 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
               "elevation": 0,
               "margin": 4,
               "minWidth": "auto",
-              "shadowColor": "#000000",
-              "shadowOffset": Object {
-                "height": 0,
-                "width": 0,
-              },
-              "shadowOpacity": 0.24,
-              "shadowRadius": 0,
             }
           }
         >
           <View
             accessibilityRole="button"
+            accessibilityStates={Array []}
             accessible={true}
             isTVSelectable={true}
             onResponderGrant={[Function]}
@@ -244,7 +252,8 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
                   Array [
                     Object {
                       "color": "#000000",
-                      "fontFamily": "Helvetica Neue",
+                      "fontFamily": "System",
+                      "fontWeight": "400",
                       "textAlign": "left",
                       "writingDirection": "ltr",
                     },
@@ -260,10 +269,12 @@ exports[`renders visible banner, with action buttons and with image 1`] = `
                       },
                       Object {
                         "color": "#6200ee",
-                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontFamily": "System",
+                        "fontWeight": "500",
                       },
                       Object {
-                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontFamily": "System",
+                        "fontWeight": "500",
                       },
                     ],
                   ]
@@ -298,9 +309,15 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
 >
   <View
     style={
-      Object {
-        "overflow": "hidden",
-      }
+      Array [
+        Object {
+          "alignSelf": "center",
+          "maxWidth": 960,
+          "overflow": "hidden",
+          "width": "100%",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -330,7 +347,8 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
             Array [
               Object {
                 "color": "#000000",
-                "fontFamily": "Helvetica Neue",
+                "fontFamily": "System",
+                "fontWeight": "400",
                 "textAlign": "left",
                 "writingDirection": "ltr",
               },
@@ -364,18 +382,12 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
               "elevation": 0,
               "margin": 4,
               "minWidth": "auto",
-              "shadowColor": "#000000",
-              "shadowOffset": Object {
-                "height": 0,
-                "width": 0,
-              },
-              "shadowOpacity": 0.24,
-              "shadowRadius": 0,
             }
           }
         >
           <View
             accessibilityRole="button"
+            accessibilityStates={Array []}
             accessible={true}
             isTVSelectable={true}
             onResponderGrant={[Function]}
@@ -413,7 +425,8 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
                   Array [
                     Object {
                       "color": "#000000",
-                      "fontFamily": "Helvetica Neue",
+                      "fontFamily": "System",
+                      "fontWeight": "400",
                       "textAlign": "left",
                       "writingDirection": "ltr",
                     },
@@ -429,10 +442,12 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
                       },
                       Object {
                         "color": "#6200ee",
-                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontFamily": "System",
+                        "fontWeight": "500",
                       },
                       Object {
-                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontFamily": "System",
+                        "fontWeight": "500",
                       },
                     ],
                   ]
@@ -454,18 +469,12 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
               "elevation": 0,
               "margin": 4,
               "minWidth": "auto",
-              "shadowColor": "#000000",
-              "shadowOffset": Object {
-                "height": 0,
-                "width": 0,
-              },
-              "shadowOpacity": 0.24,
-              "shadowRadius": 0,
             }
           }
         >
           <View
             accessibilityRole="button"
+            accessibilityStates={Array []}
             accessible={true}
             isTVSelectable={true}
             onResponderGrant={[Function]}
@@ -503,7 +512,8 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
                   Array [
                     Object {
                       "color": "#000000",
-                      "fontFamily": "Helvetica Neue",
+                      "fontFamily": "System",
+                      "fontWeight": "400",
                       "textAlign": "left",
                       "writingDirection": "ltr",
                     },
@@ -519,10 +529,12 @@ exports[`renders visible banner, with action buttons and without image 1`] = `
                       },
                       Object {
                         "color": "#6200ee",
-                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontFamily": "System",
+                        "fontWeight": "500",
                       },
                       Object {
-                        "fontFamily": "HelveticaNeue-Medium",
+                        "fontFamily": "System",
+                        "fontWeight": "500",
                       },
                     ],
                   ]
@@ -557,9 +569,15 @@ exports[`renders visible banner, without action buttons and with image 1`] = `
 >
   <View
     style={
-      Object {
-        "overflow": "hidden",
-      }
+      Array [
+        Object {
+          "alignSelf": "center",
+          "maxWidth": 960,
+          "overflow": "hidden",
+          "width": "100%",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -610,7 +628,8 @@ exports[`renders visible banner, without action buttons and with image 1`] = `
             Array [
               Object {
                 "color": "#000000",
-                "fontFamily": "Helvetica Neue",
+                "fontFamily": "System",
+                "fontWeight": "400",
                 "textAlign": "left",
                 "writingDirection": "ltr",
               },
@@ -656,9 +675,15 @@ exports[`renders visible banner, without action buttons and without image 1`] = 
 >
   <View
     style={
-      Object {
-        "overflow": "hidden",
-      }
+      Array [
+        Object {
+          "alignSelf": "center",
+          "maxWidth": 960,
+          "overflow": "hidden",
+          "width": "100%",
+        },
+        undefined,
+      ]
     }
   >
     <View
@@ -688,7 +713,8 @@ exports[`renders visible banner, without action buttons and without image 1`] = 
             Array [
               Object {
                 "color": "#000000",
-                "fontFamily": "Helvetica Neue",
+                "fontFamily": "System",
+                "fontWeight": "400",
                 "textAlign": "left",
                 "writingDirection": "ltr",
               },
