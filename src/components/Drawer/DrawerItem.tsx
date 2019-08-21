@@ -1,6 +1,6 @@
 import color from 'color';
 import * as React from 'react';
-import { View, StyleSheet, StyleProp, ViewStyle } from 'react-native';
+import { View, StyleSheet, StyleProp, ViewStyle, TextStyle } from 'react-native';
 import Text from '../Typography/Text';
 import Icon, { IconSource } from '../Icon';
 import TouchableRipple from '../TouchableRipple';
@@ -12,6 +12,7 @@ type Props = {
    * The label text of the item.
    */
   label: string;
+  labelStyle?: StyleProp<TextStyle>
   /**
    * Icon to display for the `DrawerItem`.
    */
@@ -25,6 +26,10 @@ type Props = {
    */
   onPress?: () => void;
   style?: StyleProp<ViewStyle>;
+  /**
+   * Color of the ripple effect (Android >= 5.0 and Web).
+   */
+  rippleColor?: string;
   /**
    * @optional
    */
@@ -50,7 +55,7 @@ class DrawerItem extends React.Component<Props> {
   static displayName = 'Drawer.Item';
 
   render() {
-    const { icon, label, active, theme, style, onPress, ...rest } = this.props;
+    const { icon, label, active, theme, style, onPress, labelStyle, rippleColor, ...rest } = this.props;
     const { colors, roundness } = theme;
     const backgroundColor = active
       ? color(colors.primary)
@@ -85,6 +90,7 @@ class DrawerItem extends React.Component<Props> {
           accessibilityComponentType="button"
           accessibilityRole="button"
           accessibilityStates={active ? ['selected'] : []}
+          rippleColor={rippleColor}
         >
           <View style={styles.wrapper}>
             {icon ? (
@@ -99,6 +105,7 @@ class DrawerItem extends React.Component<Props> {
                   ...font,
                   marginLeft: labelMargin,
                 },
+                labelStyle
               ]}
             >
               {label}
